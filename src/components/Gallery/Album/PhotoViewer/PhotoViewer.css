@@ -1,0 +1,32 @@
+.photo-viewer {
+  display: flex;
+  align-items: center;
+}
+
+.photo-viewer:focus {
+  outline: none;
+}
+
+.photo-viewer__button {
+  cursor: pointer;
+  fill: lightgrey;
+  height: 3em;
+  padding: 16px;
+  width: 3em;
+}
+
+.photo-viewer__button--hidden {
+  display: none;
+}
+
+.photo-viewer__button:hover {
+  fill: whitesmoke;
+}
+
+.photo {
+  cursor: pointer;
+  max-width: calc(100vw - 6em - 48px);
+  user-select: none;
+}
+
+

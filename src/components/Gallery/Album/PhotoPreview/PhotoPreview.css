@@ -1,0 +1,10 @@
+.photo-preview {
+  cursor: pointer;
+  margin: 8px;
+  transition: transform 0.2s;
+}
+
+.photo-preview:hover {
+  transform: scale(1.05);
+}
+

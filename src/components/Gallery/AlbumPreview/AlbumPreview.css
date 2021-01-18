@@ -1,0 +1,33 @@
+.album-preview {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  justify-content: space-between;
+  margin: 8px;
+  width: 150px;
+  transition: transform 0.2s;
+}
+
+.album-preview:hover {
+  transform: scale(1.05);
+}
+
+.album-preview__photos-count {
+  color: white;
+  font-size: 1em;
+  font-weight: 300;
+  padding: 4px;
+  text-align: right;
+}
+
+.album-preview__title {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 75%, transparent 100%);
+  color: white;
+  font-size: 1em;
+  font-weight: 400;
+  overflow: hidden;
+  padding: 4px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

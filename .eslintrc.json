@@ -291,16 +291,6 @@
             "pattern": "react**",
             "group": "external",
             "position": "before"
-          },
-          {
-            "pattern": "@material-ui/**",
-            "group": "internal",
-            "position": "after"
-          },
-          {
-            "pattern": "./style",
-            "group": "unknown",
-            "position": "after"
           }
         ],
         "newlines-between": "always"

@@ -1,0 +1,40 @@
+.album-top {
+  align-items: baseline;
+  display: flex;
+  margin: 16px 0;
+}
+
+.album-top__button-go-back {
+  background-color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-block;
+  flex-grow: 0;
+  font-size: 1.2em;
+  font-weight: normal;
+  padding: 4px 8px;
+  transition: background-color 0.3s;
+  white-space: nowrap;
+}
+
+.album-top__button-go-back:hover {
+  background-color: lightgrey;
+}
+
+.album-top__title {
+  flex-grow: 1;
+  margin: 0;
+  margin-left: 16px;
+}
+
+.album__photos {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.button-go-back__icon {
+  height: 0.7em;
+  margin-right: 0.5em;
+  vertical-align: baseline;
+}
